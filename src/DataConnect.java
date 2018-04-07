@@ -5,10 +5,10 @@ import java.util.Date;
 
 public class DataConnect {
 	
-	private static String USERNAME = "casvisit";
-	private static String PASSWROD = "casvisit#20180403";
-	private static String DRVIER = "oracle.jdbc.OracleDriver"; //oracle.jdbc.OracleDriver
-	private static String URL = "jdbc:oracle:thin:@10.0.3.120:1521:WEBCAS";   //ip=>192.168.188.128 WEBCAS DEDICATED
+	private static String USERNAME = "dbusername";
+	private static String PASSWROD = "dbpassword";
+	private static String DRVIER = "oracle.jdbc.OracleDriver"; 
+	private static String URL = "jdbc:oracle:thin:@db_url:dbname";   
 
 	//create connection 
 	Connection connection = null;
